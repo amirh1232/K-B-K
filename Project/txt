@@ -1,0 +1,44 @@
+#title{
+    font-family: 'Dancing Script', cursive;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 50px;
+}
+/* #search{
+    position: right;
+    display: inline-block;
+    min-width: 15%;
+    max-width: 25%;
+    
+} */
+body{
+    margin: 0;
+}
+header{
+    background-color: rgba(243, 12, 12, 0.781);
+    
+}
+nav div{
+    display: inline-block;
+}
+nav{
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+}
+.fa_txt{
+    font-family: 'B-NAZANIN';
+    font-size: 20px;
+}
+#login_singup_button{
+    border: 1px solid black;
+    height: 27px;
+    width: 80;
+    border-radius: 8%;
+}
+#login_singup_button a{
+    margin: 1.5px 3px;
+}

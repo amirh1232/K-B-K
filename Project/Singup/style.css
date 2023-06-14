@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('/Font/B-NAZANIN.TTF');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('/Font/B-NAZANIN.TTF');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(255, 245, 245);
+}
+a{
+    color: #000;
+    font-size: 20px;
+    
+}
+a:hover{
+    text-decoration: underline 2px solid black;
+}
+header {
+    height: 80px;
+    background-color: rgb(26, 78, 250);
+    /* border-radius: 0 0 2% 2%; */
+    box-shadow: 0 2px 10px rgb(14, 179, 230);
+}
+#title{
+    font-family: 'Dancing Script';
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 49%;
+}
+.title{
+    font-weight: 700;
+    font-size: larger;
+}
+header *{
+    display: inline-block;
+}
+header nav{
+    width: 49%;
+    text-align: right;
+    direction: ltr;
+}
+.fa_txt{
+    direction: rtl;
+    font: 18px 'B-NAZANIN';
+}
+#main_div{
+    background-color: rgba(30, 26, 250, 0.877);
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    height: 400px;
+    border-radius: 10%;
+    box-shadow: 2px 2px 20px rgb(14, 179, 230);
+}
+form{
+    
+    margin: auto auto;
+    display: block;
+    width: 60%;
+    text-align: center;
+}
+/* form div{
+    padding-left: 30px;
+} */
+input{
+    width: 40%;
+    min-width: 50px;
+}
+.name_div{
+    padding-top: 60px;
+}
+.Lname_div{
+    padding: 20px 0 0 33px;
+}
+.email_div{
+    padding-top: 20px
+}
+.password_div{
+    padding-top: 20px;
+}
+.repassword_div{
+    padding: 20px 0 0 30px;
+}
+#repassword, #Lname{
+    width: 42.5%;
+}
+.city_div{
+    padding-top: 20px
+}
+.button{
+    display: inline-block;
+    padding: 20px 40% 0 40%;
+}
+.ltr{
+    direction: ltr;
+}
+.rtl{
+    direction: rtl;
+}

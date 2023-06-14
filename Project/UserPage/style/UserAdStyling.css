@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&display=swap');
+@import url('../../Font/B-NAZANIN.TTF');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+body{
+    background-color: rgb(255, 253, 253);
+}
+a{
+    color: #000;
+    font-size: 20px;
+    
+}
+header a:hover{
+    text-decoration: underline 2px solid black;
+}
+header {
+    height: 80px;
+    background-color: rgb(26, 78, 250);
+    /* border-radius: 0 0 2% 2%; */
+    box-shadow: 0 2px 10px rgb(14, 179, 230);
+}
+#title{
+    font-family: 'Dancing Script';
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 5px;
+    width: 49%;
+}
+.title{
+    font-weight: 700;
+    font-size: larger;
+}
+header *{
+    display: inline-block;
+}
+header nav{
+    width: 49%;
+    text-align: right;
+    direction: ltr;
+}
+.bar{
+    float: left;
+}
+.left_bar{
+    display: block;
+    width: 86.7%;
+    height: 500px;
+    margin-top: 20px;
+    background-color: white;
+}
+.left_bar div{
+    text-align: center;
+    padding-top: 60px;
+    
+}
+.righte_bar{
+    display: block;
+    text-align: right;
+    width: 13%;
+    padding-top: 50px;
+    height: 500px;
+
+}
+.righte_bar li{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    list-style-type: none;
+    
+}
+.righte_bar li:hover{
+    background-color: rgb(233, 229, 229);
+}
+.active{
+    box-shadow: -2px 0px 3px black ;
+    background-color: rgb(233, 229, 229);
+}
+.main_content{
+    text-align: right;
+    margin: auto auto;
+}
+
+table{
+    float: right;
+    border: 3px solid black;
+    padding-top: 10px;
+    margin-right: 10%;
+}
+th{
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+td{
+    padding-top: 13px;
+    padding-bottom: 3px;
+    border-bottom: 2px solid black;
+    border-left: 2px solid black;
+}
+#link{
+    width: 400px;
+}
+.active_ad{
+    color: rgb(8, 21, 139);
+    text-decoration: underline solid 2px green;
+}
+.deactive_ad{
+    color: red;
+    text-decoration: line-through solid 1px;
+}
+.fa_txt{
+    direction: rtl;
+    font: 18px 'B-NAZANIN';
+}
+.ltr{
+    direction: ltr;
+}
